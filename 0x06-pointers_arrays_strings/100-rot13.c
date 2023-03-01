@@ -32,6 +32,7 @@ char *rot(char *str)
 				break;
 			}
 		}
+		inde1++;
 	}
 	return (str);
 }
