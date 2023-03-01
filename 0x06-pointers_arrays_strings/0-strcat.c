@@ -4,11 +4,10 @@
  * the src string to the dest string
  * overwriting the terminating null byte (\0) at the
  * end of dest, and then adds a terminating null byte.
- * Description : concatenates two strings.
  *
  * @src: is the source of the string to be appended to dest
- * @dest: a poit to the said string
- * Return : pointer to the resulting string
+ * @dest: a poit to the said string.
+ * Return: pointer to the resulting string
  */
 
 char *_strcat(char *dest, char *src)
