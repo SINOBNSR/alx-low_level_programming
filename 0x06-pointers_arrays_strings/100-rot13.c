@@ -7,7 +7,7 @@
 char *rot(char *str)
 {
 	int inde1 = 0, inde2;
-	char aplphabet[52] = {'A', 'B', 'C', 'D', 'E', 'F',
+	char alphabet[52] = {'A', 'B', 'C', 'D', 'E', 'F',
 		'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N',
 		'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V',
 		'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd',
