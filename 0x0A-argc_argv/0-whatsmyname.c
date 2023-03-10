@@ -5,13 +5,13 @@ include "main.h"
  * main - prints the name of the programme
  * followed by a new line.
  * @argc: Number of arguments
- * @agrav: Array of pointers to the said arguments
+ * @argv: Array of pointers to the said arguments
  *
  * Return: 0
  */
 
-int main(int agrc, char *agrv[])
+int main(int argc, char *argv[])
 {
-	printf("%s\n", agrv[agrc * 0]);
+	printf("%s\n", argv[argc * 0]);
 	return (0);
 }
