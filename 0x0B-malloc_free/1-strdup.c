@@ -17,15 +17,14 @@ char *_strdup(char *str)
 	int index, len = 0;
 
 	if (str == NULL)
-	{
+
 		return (NULL);
-	}
 
 	for (index = 0; str[index]; index++)
-	{
+
 		len++;
 	duplicate = malloc(sizeof(char) * (len + 1));
-	}
+
 	if (duplicate == NULL)
 		return (NULL);
 
